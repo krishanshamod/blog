@@ -9,3 +9,7 @@
 ## 📦 Containerization
 
 * [Reduce the size of your Docker images drastically](containerization/reduce-the-size-of-your-docker-images-drastically.md)
+
+## 💻 Infrastructure
+
+* [Securing infrastructure using Bastion Host](infrastructure/securing-infrastructure-using-bastion-host.md)
