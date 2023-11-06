@@ -1,6 +1,6 @@
 # Getting Started with GitOps
 
-<figure><img src="../.gitbook/assets/Git.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gitops_image.png" alt=""><figcaption></figcaption></figure>
 
 GitOps is a set of best practices that uses Git as the single source of truth for managing cloud-native application configurations and infrastructure deployments. Which means everything we manage using Git including application manifests, configurations, secrets and infrastructure.
 
@@ -21,7 +21,7 @@ When a change is detected, the agent retrieves the updated configuration files f
 
 The most popular use case is Kubernetes deployments. Let’s check it out.
 
-<figure><img src="../.gitbook/assets/CI_CD Pipeline.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gitops_cicd_pipeline.png" alt=""><figcaption></figcaption></figure>
 
 In this scenario, there are two Git repositories. The first one is for application code and the second one is for application manifests. Also, the GitOps agent is deployed within the Kubernetes cluster.
 
